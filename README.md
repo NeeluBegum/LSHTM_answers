@@ -11,7 +11,8 @@ I would assess the age stratification on resistant flows (orange highlighter) to
 
 ### ANSWER 3
 
-Logistic model is essentially binary and it would be a good idea to use a generalised linear model (glm) to fit the data
+Logistic model is essentially binary and it would be a good idea to use a generalised linear model (glm) to fit the data:
+
 logistic_model <- glm(resistant_binary ~ age, data = data, family = binomial)
 
 ### ANSWER 4
